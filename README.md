@@ -7,4 +7,4 @@ requiring python 3.7 or latest ( or use virtual env in subdirectory: ./env)
 use this command to know the format of arguments: 
 python3 main.py --help
 
-format arguments: python3 main.py -t <<templatefile>> -c <<customersfile>> -o <<outputemail>> -e <<errorfile>>
+format arguments: python3 main.py -t /path/to/templatefile -c path/to/customersfile -o path/to/output_emails/ -e path/to/errorfile
