@@ -21,7 +21,7 @@ def validateArguments(argv: List[str]) -> Tuple[str, str, str, str]:
   
   for opt, arg in opts:
     if opt in ('-h', "--help"):
-      print ('main.py -t <templatefile> -c <customersfile> -o <outputemail> -e <error>')
+      print ('main.py -t <templatefile> -c <customersfile> -o <outputemail> -e <errorfile>')
       sys.exit()
     elif opt in ("-t", "--template"):
       template_file = arg
