@@ -1,0 +1,6 @@
+{
+  "from": "The Dev Team<dev@google.com>",
+  "subject": "Sprint notes",
+  "mimeType": "text/plain",
+  "body": "Hi {{TITLE}} {{FIRST_NAME}} {{LAST_NAME}}, \nToday we send you our sprint notes... Sincerely,\n The Marketing Team"
+}
